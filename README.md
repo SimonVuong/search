@@ -3,6 +3,7 @@
 1. Install Node v22.8.0
 2. `npm install`
 3. `npm run dev`
+4. go to http://localhost:3000
 
 (Algolia is running on my personal account. Please feel free to reach out if you want access to it)
 
