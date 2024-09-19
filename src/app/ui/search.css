@@ -1,0 +1,6 @@
+.ais-Highlight-highlighted,
+.ais-Snippet-highlighted {
+  background-color: rgba(245, 226, 79, 0.748);
+  color: var(--foreground);
+  font-weight: bold;
+}

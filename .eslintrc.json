@@ -1,0 +1,27 @@
+{
+  "extends": ["next/core-web-vitals", "next/typescript", "prettier", "eslint:recommended", "plugin:react/recommended"],
+  "rules": {
+    "no-use-before-define": 2,
+    "@typescript-eslint/no-use-before-define": 2,
+    "prefer-const": 2,
+    "camelcase": 2,
+    "no-dupe-args": 2,
+    "no-dupe-keys": 2,
+    "no-duplicate-case": 2,
+    "no-unreachable": 2,
+    "no-undef": 2,
+    "@typescript-eslint/no-shadow": 1,
+    "no-catch-shadow": 1,
+    "no-console": 2,
+    "@typescript-eslint/default-param-last": "off",
+    "sort-imports": [0, { "ignoreCase": true, "ignoreDeclarationSort": true }],
+    "react/jsx-no-bind": 1,
+    "react-hooks/exhaustive-deps": 2,
+    "react/jsx-handler-names": 1,
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }]
+  },
+  "globals": {
+    "React": true,
+    "JSX": true
+  }
+}
