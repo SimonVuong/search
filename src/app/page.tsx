@@ -1,6 +1,4 @@
 import Search from '@/app/ui/search';
-// import Image from "next/image";
-// import Search from "app";
 
 export default function Home() {
   return (

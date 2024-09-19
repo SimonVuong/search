@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
 /* eslint no-console: 0 */
 import { readFileSync } from 'fs';
 import { algoliasearch } from 'algoliasearch';

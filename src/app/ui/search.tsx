@@ -1,7 +1,6 @@
 'use client';
 
 import { useDebouncedCallback } from 'use-debounce';
-
 import { liteClient as algoliasearch } from 'algoliasearch/lite';
 import { Hits, InstantSearch, SearchBox, Configure, useInstantSearch, Pagination } from 'react-instantsearch';
 import { simple } from 'instantsearch.js/es/lib/stateMappings';
